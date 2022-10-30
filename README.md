@@ -18,3 +18,7 @@ Check: ```127.0.0.1:9090```, ```127.0.0.1:8000``` and ```127.0.0.1:8080```
 For Prometheus:
 
 Go to ```status``` then ```targets``` to find the Django services.
+
+For Grafana: 
+- import dashboard from ```monitor_services.json```
+- data source url: ```http://prometheus:9090```
