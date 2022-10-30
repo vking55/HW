@@ -9,3 +9,4 @@ COPY ./hw_app /app
 WORKDIR /app
 
 RUN python manage.py migrate
+
